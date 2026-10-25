@@ -14,7 +14,7 @@ body {
   grid-template-areas: 
     "hd hd"
     "sd-l-top main"
-    "sd-l-bottom main"
+    "sd-l-top main"
     "ft ft";
 }
 
