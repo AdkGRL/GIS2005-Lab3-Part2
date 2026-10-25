@@ -49,6 +49,7 @@ header {
   background: #f4f4f4;
   padding: 5px;
   overflow-y: auto;
+  align-self: start;
 }
 
 main {
