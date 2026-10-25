@@ -10,7 +10,7 @@ body {
   min-height: 100vh; /* Fills the entire browser viewport */
   gap: 0;
   grid-template-columns: 350px 1fr;
-  grid-template-rows: 120px 250px auto 80px;
+  grid-template-rows: 120px 350px auto 80px;
   grid-template-areas: 
     "hd hd"
     "sd-l-top main"
