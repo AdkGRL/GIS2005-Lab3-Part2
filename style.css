@@ -10,7 +10,7 @@ body {
   min-height: 100vh; /* Fills the entire browser viewport */
   gap: 0;
   grid-template-columns: 350px 1fr;
-  grid-template-rows: 120px 350px auto 80px;
+  grid-template-rows: 120px 1fr 80px;
   grid-template-areas: 
     "hd hd"
     "sd-l-top main"
@@ -41,6 +41,7 @@ header {
   grid-area: sd-l-top;
   background: #f4f4f4;
   padding: 5px;
+  overflow: visible;
   min-height: 0;
 }
 
