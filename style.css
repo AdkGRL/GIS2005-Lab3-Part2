@@ -41,7 +41,6 @@ header {
   grid-area: sd-l-top;
   background: #f4f4f4;
   padding: 5px;
-  overflow-y: auto;
   min-height: 0;
 }
 
