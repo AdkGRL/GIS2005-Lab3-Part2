@@ -1,0 +1,46 @@
+<HTML>
+  <HEAD>
+    <link rel="stylesheet" href="grid-style.css">
+    <script type="module" src="https://js.arcgis.com/5.1/"></script>
+  </HEAD>
+  <BODY>
+    <DIV class="container">
+      <header>
+        <img src="denver-skyline.png" 
+        style="display: block; margin: 0 auto;" 
+        width="700px" 
+        height="80px" 
+        alt="Skyline">
+      </header>
+      <aside class="sidebar-l-top">
+        Layer Visibility
+        <div>
+            <arcgis-layer-list reference-element="myMap"></arcgis-layer-list>
+        </div>
+    </aside>
+
+    <aside class="sidebar-l-bottom">
+        Legend
+        <div>
+            <arcgis-legend reference-element="myMap"></arcgis-legend>
+        </div>
+    </aside>
+      
+      <main>
+        <arcgis-map
+         item-id="e312b7ef09e6408d8c2212587119f6e4"
+         id="MyMap"
+         center="-104.95, 39.75"
+         zoom="14">
+
+         <arcgis-zoom slot="top-left"></arcgis-zoom>
+
+        </arcgis-map>
+      </main>
+
+        <footer>
+        Grocery icon from www.flaticon.com licensed by CC 3.0
+        </footer>
+    </div>
+  </BODY>
+</HTML>
