@@ -8,7 +8,7 @@ body {
 .container {
   display: grid;
   min-height: 100vh; /* Fills the entire browser viewport */
-  gap: 10px;
+  gap: 0;
   grid-template-columns: 350px 1fr;
   grid-template-rows: 120px 500px 1fr 80px;
   grid-template-areas: 
@@ -32,7 +32,7 @@ body {
 }
 header {
   grid-area: hd;
-  padding: 10px;
+  padding: 5px;
   box-sizing: border-box;
   min-width: 0;
   overflow: hidden;
@@ -40,20 +40,20 @@ header {
 .sidebar-l-top {
   grid-area: sd-l-top;
   background: #f4f4f4;
-  padding: 10px;
+  padding: 5px;
   overflow-y: auto;
 }
 
 .sidebar-l-bottom {
   grid-area: sd-l-bottom;
   background: #f4f4f4;
-  padding: 10px;
+  padding: 5px;
   overflow-y: auto;
 }
 
 main {
   grid-area: main;
-  padding: 10px;
+  padding: 0;
   min-width: 0;
 }
 
